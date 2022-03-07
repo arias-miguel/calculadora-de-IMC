@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1> CALCULADORA IMC</h1>
+    </header>
+    <main>
+        <p>Descubre su indice de masa corporal</p>
+        <form class="form"action=""> 
+            <div class="sexo">
+                <span>Sexo</span>
+                <label class=""></label> 
+                <input type="radio" name="sexo" id="hombre" checked autocomplete="off"> Hombre
+              </label>
+              <label class="">
+                <input type="radio" name="sexo" id="mujer" checked autocomplete="off"> Mujer
+              </label>
+            </div>
+            <label for="text" class="">Edad</label>
+            <input type="number" class="" id="edad" placeholder="ingrese su edad"><br>
+            <label for="text" class="">Peso</label>
+            <input type="number" class="" id="peso" placeholder="Ingrese su peso"><br>
+            <label for="text" class="">Altura</label>
+            <input type="number" class="" id="altura" placeholder="Ingrese su altura en metros"><br>
+        </form>
+        <p>KG</p>
+        <p>M</p>
+        <button type="button" id="bt" value="Btcalcular">Calcular</button>
+        <div>
+            <p>Resultado</p>
+            <span id="resultado">00</span>
+            <div id="rimc">
+                
+            </div>
+        </div>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>
