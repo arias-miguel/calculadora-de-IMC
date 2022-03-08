@@ -21,7 +21,7 @@ let boton = document.querySelector('#bt');
         } 
         if(imc>=25.0 && imc<=29.9){
             document.getElementById("rimc").innerHTML=`Con sobrepeso`;
-            m.style.backgroundColor='black';
+            m.style.backgroundColor='pink';
         }
         if(imc>=30.0 && imc<=39.9){
            document.getElementById("rimc").innerHTML=`obeso`;
